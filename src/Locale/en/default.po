@@ -1,0 +1,4 @@
+msgid "title.homepage"
+msgstr "TripSpend"
+msgid "metadescription.homepage"
+msgstr "TripSpend"

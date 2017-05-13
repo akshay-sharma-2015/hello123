@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TripSpend</title>
+<link href="css/main.css" type="text/css" media="all" rel="stylesheet" />
+<link href="css/font-awesome.css" type="text/css" media="all" rel="stylesheet" />
+<link href="css/fonts.css" type="text/css" media="all" rel="stylesheet" />
+<link href="css/animate.css" type="text/css" media="all" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.IE.js"></script>
+</head>
+<body>
+<div class="mainWrapper">
+  <header>
+    <div class="block">
+      <div class="navIcon" id="navIcon"><a href="javascript:void(0)" onClick="$('.toggle_menu').slideToggle();"><span></span> <span></span> <span></span></a></div>
+      <div class="logo"><a href=""><img src="images/logo.png" alt="logo" /></a></div>
+      <div class="profileTop"> <a href=""><img src="images/profile.png" alt="Profile" /></a> </div>
+    </div>
+    <nav class="toggle_menu">
+      <ul>
+        <li><span>Menu</span></li>
+        <li><a href="">Promos</a></li>
+        <li><a href="">Tracker</a></li>
+        <li><a href="">My Trips</a></li>
+        <li><a href="">All of us</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Live Chat</a></li>
+        <li><a href="">About and Contact</a></li>
+        <li><a href="">Login / Join</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="midWrapper">
+  <div class="mainTitle">
+    <h1>Tracker</h1>
+  </div>
+  <div class="priceInquery">
+    <div class="block">
+      <div class="placeDatial">
+        <div class="block">
+          <div class="col">
+            <input type="text" class="datespicker datepicker" value="01 Jun." />
+          </div>
+          <div class="col">
+          <input type="text" placeholder="Country" />
+          </div>
+          <div class="col">
+            <input type="text" placeholder="Place" />
+          </div>
+        </div>
+        <div class="addTrip"><a href="javascript:void(0);" onClick="tripPopup();"><img src="images/ic7.png" alt="img" /></a></div>
+      </div>
+      <div class="category">
+        <ul>
+          <li>
+            <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic2.png" alt="Accom" /></i></span>
+              <label>Accom</label>
+              </a> </div>
+          </li>
+          <li>
+            <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic3.png" alt="Accom" /></i></span>
+              <label>Food</label>
+              </a> </div>
+          </li>
+          <li>
+            <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic4.png" alt="Accom" /></i></span>
+              <label>Activites</label>
+              </a> </div>
+          </li>
+          <li>
+            <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic5.png" alt="Accom" /></i></span>
+              <label>Transport</label>
+              </a> </div>
+          </li>
+          <li>
+            <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic6.png" alt="Accom" /></i></span>
+              <label>Other</label>
+              </a> </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="block notes">
+      <h2>Total Local Currency</h2>
+    </div>
+    <div class="block notes">
+      <h2>Total User Currency</h2>
+    </div>
+    <div class="block notes">
+      <h2>Notes and Memories</h2>
+    </div>
+  </div>
+  <div class="tripAddpop">
+    <div class="category">
+      <ul>
+        <li>
+          <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic2.png" alt="Accom" /></i></span>
+            <label>Accom</label>
+            </a> </div>
+        </li>
+        <li>
+          <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic3.png" alt="Accom" /></i></span>
+            <label>Food</label>
+            </a> </div>
+        </li>
+        <li>
+          <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic4.png" alt="Accom" /></i></span>
+            <label>Activites</label>
+            </a> </div>
+        </li>
+        <li>
+          <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic5.png" alt="Accom" /></i></span>
+            <label>Transport</label>
+            </a> </div>
+        </li>
+        <li>
+          <div class="col"> <a href=""> <span class="pull-left"><i><img src="images/ic6.png" alt="Accom" /></i></span>
+            <label>Other</label>
+            </a> </div>
+        </li>
+      </ul>
+    </div>
+    <div class="tripForm">
+      <form>
+        <div class="filed">
+          <label for="People"># of People:</label>
+          <input type="text" id="People" placeholder="" />
+        </div>
+        <div class="filed">
+          <label for="Detaf">Details:</label>
+          <input type="text" id="Detaf" placeholder="" />
+        </div>
+        <div class="filed">
+          <label for="Costy">Cost:</label>
+          <input type="text" id="Costy" placeholder="" />
+        </div>
+        <div class="filed">
+          <label for="Current">Currency:</label>
+          <input type="text" id="Current" placeholder="INR" onClick="chouseCurrency('tracCrenc');" />
+          <div class="chouseCurrnce" id="tracCrenc">
+            <div class="searchCurr">
+              <input type="text" placeholder="INR" />
+            </div>
+            <ul>
+              <li>
+                <label for="check">INR</label>
+                <span class="checkCol">
+                <input type="radio" name="crance" id="check">
+                <span></span> </span></li>
+              <li>
+                <label for="check2">USD</label>
+                <span class="checkCol">
+                <input type="radio" name="crance" id="check2">
+                <span></span> </span></li>
+              <li>
+                <label for="check3">EUR</label>
+                <span class="checkCol">
+                <input type="radio" name="crance" id="check3">
+                <span></span> </span></li>
+              <li>
+                <label for="check4">AOA</label>
+                <span class="checkCol">
+                <input type="radio" name="crance" id="check4">
+                <span></span> </span></li>
+              <li>
+                <label for="check5">DZD</label>
+                <span class="checkCol">
+                <input type="radio" name="crance" id="check5">
+                <span></span> </span></li>
+              <li>
+                <label for="check6">ILS</label>
+                <span class="checkCol">
+                <input type="radio" name="crance" id="check6">
+                <span></span> </span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="filed">
+          <label for="Memot">Notes and Memories:</label>
+          <textarea id="Memot" placeholder=""></textarea>
+        </div>
+        <div class="block alinCenter">
+          <input type="submit" value="Ok" class="btn radiusBtn" />
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script src="js/jquery-ui.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

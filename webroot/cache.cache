@@ -1,0 +1,16 @@
+CACHE MANIFEST 
+# v1.0 : 10-08-2014 CACHE: 
+# pages
+http://localhost/tripspend/
+# styles & scripts
+http://localhost/tripspend/main.css
+http://localhost/tripspend/fonts.css
+http://localhost/tripspend/font-awesome.css
+http://localhost/tripspend/animate.css 
+http://localhost/tripspend/pnotify.custom.min.css 
+http://localhost/tripspend/jquery.min.js 
+http://localhost/tripspend/jquery.IE.js
+http://localhost/tripspend/jquery-ui.js 
+http://localhost/tripspend/custom.js
+http://localhost/tripspend/pnotify.custom.min.js 
+http://localhost/tripspend/jquery.form.min.js

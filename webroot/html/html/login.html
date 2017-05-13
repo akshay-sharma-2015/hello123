@@ -1,0 +1,200 @@
+
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TripSpend</title>
+      <link href="css/main.css" type="text/css" media="all" rel="stylesheet" />
+      <link href="css/font-awesome.css" type="text/css" media="all" rel="stylesheet" />
+      <link href="css/fonts.css" type="text/css" media="all" rel="stylesheet" />
+      <link href="css/animate.css" type="text/css" media="all" rel="stylesheet" />
+      <script type="text/javascript" src="js/jquery.IE.js"></script>
+   </head>
+   <body>
+      <div class="mainWrapper">
+         <header>
+            <div class="block">
+               <div class="navIcon" id="navIcon"><a href="javascript:void(0)" onClick="$('.toggle_menu').slideToggle();"><span></span> <span></span> <span></span></a></div>
+               <div class="logo"><a href=""><img src="images/logo.png" alt="logo" /></a></div>
+               <div class="profileTop"> <a href=""><img src="images/profile.png" alt="Profile" /></a> </div>
+            </div>
+            <nav class="toggle_menu">
+               <ul>
+                  <li><span>Menu</span></li>
+                  <li><a href="">Promos</a></li>
+                  <li><a href="">Tracker</a></li>
+                  <li><a href="">My Trips</a></li>
+                  <li><a href="">All of us</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Live Chat</a></li>
+                  <li><a href="">About and Contact</a></li>
+                  <li><a href="">Login / Join</a></li>
+               </ul>
+            </nav>
+         </header>
+         <div class="mainTitle">
+            <h1>Login / Join</h1>
+         </div>
+         <div class="midWrapper">
+            <div class="loginForm">
+               <h2>Login</h2>
+               <div class="form">
+                  <form>
+                     <div class="filed">
+                        <input type="text" placeholder="User Name" />
+                        <i><img src="images/ic9.png" alt="User" /></i> 
+                     </div>
+                     <div class="filed">
+                        <input type="password" placeholder="Password" />
+                        <i><img src="images/ic10.png" alt="User" /></i> 
+                     </div>
+                     <div class="block forgotpass"><a href="">Forgot Password ? </a></div>
+                     <div class="block">
+                        <input type="submit" class="btn radiusBtn" value="Ok" />
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="loginForm JoinForm">
+               <h2>Join</h2>
+               <div class="form">
+                  <form>
+                     <div class="filed">
+                        <input type="text" placeholder="Choose a Username" />
+                        <i><img src="images/ic9.png" alt="User" /></i> 
+                     </div>
+                     <div class="filed">
+                        <input type="password" placeholder="Choose a Password" />
+                        <i><img src="images/ic10.png" alt="User" /></i> 
+                     </div>
+                     <div class="filed">
+                        <input type="email" placeholder="country" onClick="chouseCurrency('cuntFild');" />
+                        <i><img src="images/ic11.png" alt="User" /></i> 
+                        <div class="chouseCurrnce" id="cuntFild">
+                           <div class="searchCurr">
+                              <input type="text" placeholder="Country">
+                           </div>
+                           <ul>
+                              <li>
+                                 <label for="check">country</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check2">India</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check2" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check3">France</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check3" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check3">Germany</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check3" name="crance">
+                                 <span></span> </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="filed">
+                        <input type="email" placeholder="Email" />
+                        <i><img src="images/ic12.png" alt="User" /></i> 
+                     </div>
+                     <div class="filed">
+                        <input type="text" placeholder="Sex" onClick="chouseCurrency('sexFild');">
+                        <i><img src="images/ic13.png" alt="User" /></i> 
+                        <div class="chouseCurrnce" id="sexFild">
+                           <ul>
+                              <li>
+                                 <label for="check">Male</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check2">Female</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check2" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check3">Other</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check3" name="crance">
+                                 <span></span> </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="filed">
+                        <input type="tel" placeholder="+91 124563289" />
+                        <i><img src="images/ic14.png" alt="User" /></i> 
+                     </div>
+                     <div class="filed">
+                        <input type="text" placeholder="Currency to view costs in" onClick="chouseCurrency('minCurrnce'); ">
+                        <i><img src="images/carency.png" alt="User" /></i> 
+                        <div class="chouseCurrnce" id="minCurrnce">
+                           <div class="searchCurr">
+                              <input type="text" placeholder="INR">
+                           </div>
+                           <ul>
+                              <li>
+                                 <label for="check">INR</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check2">USD</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check2" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check3">EUR</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check3" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check4">AOA</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check4" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check5">DZD</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check5" name="crance">
+                                 <span></span> </span>
+                              </li>
+                              <li>
+                                 <label for="check6">ILS</label>
+                                 <span class="checkCol">
+                                 <input type="radio" id="check6" name="crance">
+                                 <span></span> </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="block">
+                        <input type="submit" class="btn radiusBtn" value="Ok" />
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="js/jquery.min.js"></script> 
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+
